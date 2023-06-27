@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+background-position: center;
+  background-size: cover;
+  background-image: url("0.jpg");
+  min-height: 60%;  
+
+.w3-bar .w3-button {
+  padding: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">BSF</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="HOME.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="gallery.html" class="w3-bar-item w3-button"><i class=""></i> GALLERY</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+  
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">BSF</a>
+  <a href="HOME.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="gallery.html" class="w3-bar-item w3-button">GALLERY</a>
+ </nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Bataan School of Fishiries</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"><font colorBataan School of Fishiries</span><br>
+    <span class="w3-large">Discover our unforgettable  adventures Come and join lets make unforgetable memories.</span>
+    <p><a href="#GALLERY" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and Explore</a></p>
+  </div> 
+  </div>
+</header>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="w3-container" style="padding:128px 16px" id="GALLERY">
+
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>OUR GALLERY</b></h1>
+  <span class="w3-tag">BSF</span><p> Attends Cayetano Arellano Day</p>
+</header>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="0.jpg">
+      <img src="0.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+  
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="a.jpg">
+      <img src="a.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="b.jpg">
+      <img src="b.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="c.jpg">
+      <img src="c.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="d.jpg">
+      <img src="d.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="e.jpg">
+      <img src="e.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="f.jpg">
+      <img src="f.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="g.jpg">
+      <img src="g.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="h.jpg">
+      <img src="h.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="i.jpg">
+      <img src="i.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="j.jpg">
+      <img src="j.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="k.jpg">
+      <img src="k.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="l.jpg">
+      <img src="l.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="m.jpg">
+      <img src="m.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+  
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n.jpg">
+      <img src="n.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="o.jpg">
+      <img src="o.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p.jpg">
+      <img src="p.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="q.jpg">
+      <img src="q.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="r.jpg">
+      <img src="r.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="s.jpg">
+      <img src="s.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="t.jpg">
+      <img src="t.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="u.jpg">
+      <img src="u.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="v.jpg">
+      <img src="v.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="w.jpg">
+      <img src="w.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="x.jpg">
+      <img src="x.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="y.jpg">
+      <img src="y.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="z.jpg">
+      <img src="z.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+  
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="aa.jpg">
+      <img src="aa.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ab.jpg">
+      <img src="ab.jpg" alt="Forest" width="100%" height="auto">
+    </a>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+      </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>  
+  <p><footer>&copy; Copyright 2023 Bataan School of Fishiries</footer>
+</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+  
+
+
